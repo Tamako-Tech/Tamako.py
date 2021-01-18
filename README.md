@@ -10,7 +10,7 @@ pip install Tamako.py
 ```
 
 ## Getting Started
-Using Tamako.py is quite simple, see the documentation for more details. Nearly all of the features included in this API wrapper work without any api keys. To use the ChatBot feature please take a look at the [Tamako documentation]: https://lol.com.
+Using Tamako.py is quite simple, see the documentation for more details. Nearly all of the features included in this API wrapper work without any api keys. To use the ChatBot feature please take a look at the [Tamako documentation](https://lol.com).
 
 ## A quick example of printing a joke:
 
