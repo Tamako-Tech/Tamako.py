@@ -5,7 +5,7 @@ An easy to use Python wrapper for the Tamako API.
 The wrapper is in constent development and will continue to be. Everything in the Tamako API.
 
 ## How to install:
-```shell
+```py
 pip install Tamako.py
 ```
 
