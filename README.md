@@ -12,6 +12,13 @@ pip install Tamako.py
 ## Getting Started
 Using Tamako.py is quite simple, see the documentation for more details. Nearly all of the features included in this API wrapper work without any api keys. To use the ChatBot feature please take a look at the [Tamako documentation](https://tamako.tech/docs/api/chatapi).
 
+## Quick example of the chatbot:
+
+```py
+chatbot = Tamako.chatbot(username='Saqib', app_id='596cd7496fc75e16af350658e1c6e53a', app_secret='c1204d38caabc2f66616136378d9be73', userid='797940254543446048', message='Hello')
+print(chatbot)
+```
+
 ## A quick example of printing a joke:
 
 ```py
