@@ -19,6 +19,19 @@ import Tamako
 from Tamako import Tamako
 
 joke = Tamako.joke()
-print('<------------------------------------------------->')
 print(joke)
+```
+
+## A quick example of printing lyrics of a song:
+
+```py
+lyrics = Tamako.lyrics(song_name='Lucid Dreams')
+print(lyrics)
+```
+
+## A quick example of printing facts of an animal:
+
+```py
+fact = Tamako.animal_fact(animal='cat')
+print(fact)
 ```
