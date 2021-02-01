@@ -15,7 +15,7 @@ Using Tamako.py is quite simple, see the documentation for more details. Nearly 
 ## Quick example of the chatbot:
 
 ```py
-chatbot = Tamako.chatbot(username='', app_id='', app_secret='', userid='', message='')
+chatbot = Tamako.chatbot(username='', app_secret='', app_id='', gender='', prefix='', dev='', userid='', message='')
 print(chatbot)
 ```
 
