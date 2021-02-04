@@ -1,12 +1,17 @@
 # Tamako.py
-An easy to use Python wrapper for the Tamako API.
+An easy to use and actually updated Python wrapper for the Tamako API.
 
 ## State of the project:
 The wrapper is in constent development and will continue to be. Everything in the Tamako API.
 
 ## How to install:
 ```py
-pip install Tamako.py
+Windows:
+py -m pip install -U https://github.com/S4qib/Better-Tamako.py
+```
+```py
+Linux/MacOS:
+python3 -m pip install -U https://github.com/S4qib/Better-Tamako.py
 ```
 
 ## Getting Started
@@ -15,7 +20,7 @@ Using Tamako.py is quite simple, see the documentation for more details. Nearly 
 ## Quick example of the chatbot:
 
 ```py
-chatbot = Tamako.chatbot(username='', app_id='', app_secret='', userid='', message='')
+chatbot = Tamako.chatbot(username='', app_secret='', app_id='', name='', gender='', prefix='', dev='', userid='', message='')
 print(chatbot)
 ```
 
