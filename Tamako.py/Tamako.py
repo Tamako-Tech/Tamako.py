@@ -31,13 +31,22 @@ def lyrics(song_name):
     return lyrics
 
 def animal_fact(animal):
-    url = f"{base}/animalfact?name={animal}"
+    url = f"{base}/animalfact/{animal}"
     response = requests.get(url)
     response.raise_for_status()
     jsonResponse = response.json()
 #<----------------------------------->
     fact = (jsonResponse["fact"])
     return fact
+
+def image(type):
+    url = f"{base}/image/{type}"
+    response = requests.get(url)
+    response.raise_for_status()
+    jsonResponse = response.json()
+#<----------------------------------->
+    imageurl = (jsonResponse["url"])
+    return imageurl
 
 def pokedex_fact(pokemon):
     url = f"{base}/pokedex?pokemon={pokemon}"
