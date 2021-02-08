@@ -4,9 +4,9 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="Better-Tamako.py",
-    version="0.2",
-    author="S4qib",
+    name="Tamako.py",
+    version="0.3",
+    author="Tamako.Tech",
     description="Simple API Wrapper for Tamako API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
