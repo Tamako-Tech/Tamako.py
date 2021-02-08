@@ -7,11 +7,11 @@ The wrapper is in constent development and will continue to be. Everything in th
 ## How to install:
 ```py
 Windows:
-py -m pip install -U https://github.com/S4qib/Better-Tamako.py/archive/0.3.tar.gz
+pip install Tamako.py
 ```
 ```py
 Linux/MacOS:
-python3 -m pip install -U https://github.com/S4qib/Better-Tamako.py/archive/0.3.tar.gz
+pip install Tamako.py
 ```
 
 ## Getting Started
