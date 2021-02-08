@@ -9,8 +9,8 @@ def chatbot(username, app_secret, app_id, name, gender, prefix, dev, userid, mes
     response.raise_for_status()
     jsonResponse = response.json()
 #<----------------------------------->
-    responce = (jsonResponse["response"])
-    return responce
+    response = (jsonResponse["response"])
+    return response
 
 def joke():
     url = f"https://api.tamako.tech/api/joke"
