@@ -47,3 +47,10 @@ print(lyrics)
 fact = Tamako.animal_fact(animal='cat')
 print(fact)
 ```
+
+## A quick example of printing the url of an image
+
+```py
+img = Tamako.image(animal='bird')
+print(img)
+```
