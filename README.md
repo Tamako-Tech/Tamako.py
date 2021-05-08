@@ -24,6 +24,7 @@ chatbot = Tamako.chatbot(prvid='', svcid='', svcsecret='', name='', gender='', p
 print(chatbot)
 ```
 where `prvid`, `svcid` and `svcsecret` are the Provision ID, Service ID & Service Secret respectively on the [SDC](https://devcenter.skyfallen.org/accounts/login)
+
 ## A quick example of printing a joke:
 
 ```py
