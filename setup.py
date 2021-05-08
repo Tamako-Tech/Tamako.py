@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r", encoding="utf-8", errors="ignore") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="Tamako.py",
-    version="0.5",
+    version="0.6",
     author="Tamako.Tech",
     description="Simple API Wrapper for Tamako API.",
     long_description=long_description,

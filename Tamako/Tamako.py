@@ -3,8 +3,8 @@ import requests
 
 base = "https://api.tamako.tech/api"
 
-def chatbot(username, app_secret, app_id, name, gender, prefix, dev, userid, message):
-    url = f'https://api.tamako.tech/api/chat?username={username}&appsecret={app_secret}&appid={app_id}&name={name}&gender={gender}&prefix={prefix}&dev={dev}&user={userid}&message={message}'
+def chatbot(prvid, svcid, svcsecret, name, gender, prefix, dev, userid, message):
+    url = f'https://api.tamako.tech/api/chat?prvid={prvid}&svcid={svcid}&svcsecret={svcsecret}&name={name}&gender={gender}&prefix={prefix}&dev={dev}&user={userid}&message={message}'
     response = requests.get(url)
     response.raise_for_status()
     jsonResponse = response.json()
