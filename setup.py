@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8", errors="ignore") as fh:
 
 setuptools.setup(
     name="Tamako.py",
-    version="0.5",
+    version="0.6",
     author="Tamako.Tech",
     description="Simple API Wrapper for Tamako API.",
     long_description=long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: Apache License",
         "Operating System :: OS Independent",
     ],
     python_requires='>= 3.6',
