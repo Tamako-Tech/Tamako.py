@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="Tamako.py",
-    version="0.6",
+    version="0.7",
     author="Tamako.Tech",
     description="Simple API Wrapper for Tamako API.",
     long_description=long_description,
