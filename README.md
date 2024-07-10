@@ -2,7 +2,7 @@
 An easy to use and actually updated Python wrapper for the Tamako API.
 
 ## State of the project:
-The wrapper is in constent development and will continue to be. Everything in the Tamako API.
+~~The wrapper is in constent development and will continue to be. Everything in the Tamako API.~~
 
 ## How to install:
 ```py
